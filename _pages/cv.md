@@ -7,6 +7,7 @@ nav_order: 2
 description: Education, research experience, and skills.
 redirect_from:
   - /cv.html
+  - /resume/
 ---
 
 <a class="cv-download" href="{{ '/assets/pdf/yonggang-li-cv.pdf' | relative_url }}">Download full CV (PDF) ↓</a>

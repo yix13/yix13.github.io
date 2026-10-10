@@ -1,7 +1,7 @@
 name: Build and deploy academic homepage
 on:
   push:
-    branches: [master, main]
+    branches: [master, main, redesign/al-folio]
   pull_request:
     branches: [master, main]
   workflow_dispatch:
@@ -26,11 +26,11 @@ jobs:
       - name: Check internal links and site content
         run: python3 scripts/check_site.py
       - uses: actions/upload-pages-artifact@v3
-        if: github.event_name != 'pull_request'
+        if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
         with:
           path: _site
   deploy:
-    if: github.event_name != 'pull_request'
+    if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/master' || github.ref == 'refs/heads/main')
     needs: build
     runs-on: ubuntu-latest
     permissions:
