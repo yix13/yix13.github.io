@@ -1,64 +1,43 @@
 ---
-layout: archive
-title: "CV"
+layout: page
+title: CV
 permalink: /cv/
-author_profile: true
+nav: true
+nav_order: 2
+description: Education, research experience, and skills.
 redirect_from:
-  - /resume
+  - /cv.html
+  - /resume/
 ---
 
-{% include base_path %}
+<a class="cv-download" href="{{ '/assets/pdf/yonggang-li-cv.pdf' | relative_url }}">Download full CV (PDF) ↓</a>
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<div class="timeline-row">
+  <div class="timeline-date">Aug 2022 – Jul 2026</div>
+  <div><h3>Peking University</h3><p>Bachelor of Philosophy<br>Track in Logic and Philosophy of Science · Beijing, China</p></div>
+</div>
+<div class="timeline-row">
+  <div class="timeline-date">Aug – Dec 2024</div>
+  <div><h3>University of Notre Dame</h3><p>Exchange student, Department of Philosophy<br>Notre Dame, Indiana, United States</p></div>
+</div>
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research experience
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+<div class="timeline-row">
+  <div class="timeline-date">Oct 2026 – Jan 2027</div>
+  <div><h3>Research Assistant · HKUST VisLab</h3><p>Full-time</p></div>
+</div>
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+My research includes theory-informed personalized tutoring, evidence-grounded clinical explanations, and argumentation-based human-AI interaction. [Read about the projects →]({{ '/research/' | relative_url }})
+
+## Skills
+
+- **Software development:** Frontend and backend implementation; iterative system development.
+- **AI / ML:** Personalized tutoring framework design; offline refinement; model evaluation.
+- **Research methods:** Literature review; qualitative research; semi-structured interviews; thematic analysis; research synthesis; academic writing.
+
+## Contact
+
+[yonggang.laurent.li@gmail.com](mailto:yonggang.laurent.li@gmail.com) · [GitHub](https://github.com/yix13)

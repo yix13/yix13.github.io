@@ -1,0 +1,18 @@
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header>
+  <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top" aria-label="Main navigation">
+    <div class="container">
+      <a class="navbar-brand title" href="{{ '/' | relative_url }}"><span class="font-weight-bold">Yonggang</span> Li<span class="brand-dot" aria-hidden="true">.</span></a>
+      <button class="navbar-toggler ml-auto" type="button" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="menu-label">Menu</span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item {% if page.permalink == '/' %}active{% endif %}"><a class="nav-link" href="{{ '/' | relative_url }}" {% if page.permalink == '/' %}aria-current="page"{% endif %}>About</a></li>
+          {% assign nav_pages = site.pages | sort: 'nav_order' %}
+          {% for p in nav_pages %}{% if p.nav %}
+            <li class="nav-item {% if page.url == p.url %}active{% endif %}"><a class="nav-link" href="{{ p.url | relative_url }}" {% if page.url == p.url %}aria-current="page"{% endif %}>{{ p.title }}</a></li>
+          {% endif %}{% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
