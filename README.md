@@ -7,9 +7,8 @@ English academic website for https://yix13.github.io, based on al-folio v0.14.6.
 - `_pages/about.md`: biography, research themes, and contact.
 - `_pages/research.md`: project summaries. No publication claims or non-public paper links are added.
 - `_pages/cv.md`: short web CV.
-- `assets/pdf/yonggang-li-cv.pdf`: downloadable CV, copied unchanged from the supplied PDF.
-- `assets/img/portrait.jpg`: original supplied photograph, shown in a small frame with CSS.
-- `_sass/_personal.scss`: colors, spacing, and portrait dimensions (150 × 188 px desktop, 108 × 135 px mobile).
+- `assets/img/portrait.jpg`: original supplied photograph, shown in a compact frame with CSS.
+- `_sass/_personal.scss`: colors, spacing, and portrait dimensions (220 × 248 px desktop, 140 × 158 px mobile).
 
 ## Local preview
 
@@ -39,5 +38,5 @@ The existing master branch and Git history preserve the former site.
 
 The CV is the source of truth for dates and experience. The website omits unconfirmed
 publication venues/statuses, does not invent a Scholar account, and introduces
-unpublished work as research projects. The supplied PDF itself is unchanged.
+unpublished work as research projects. The personal CV PDF is not published or offered for download.
 See `THIRD_PARTY.md` for theme attribution.

@@ -15,7 +15,7 @@ class Links(HTMLParser):
             if not target.exists(): errors.append(f'{self.page}: missing {value}')
 for page in root.rglob('*.html'):
     parser = Links(); parser.page = page; parser.feed(page.read_text())
-for expected in ('index.html', 'research/index.html', 'cv/index.html', '404.html', 'assets/css/main.css', 'assets/img/portrait.jpg', 'assets/pdf/yonggang-li-cv.pdf'):
+for expected in ('index.html', 'research/index.html', 'cv/index.html', '404.html', 'assets/css/main.css', 'assets/img/portrait.jpg'):
     if not (root/expected).exists(): errors.append(f'Missing output: {expected}')
 for page in (root/'index.html', root/'research/index.html', root/'cv/index.html'):
     if page.exists():

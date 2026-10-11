@@ -38,4 +38,3 @@ defaults:
       path: assets
     values:
       sitemap: false
-github_username: yix13

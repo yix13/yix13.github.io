@@ -12,7 +12,7 @@ My work explores how AI systems can support human reasoning in healthcare and ed
 <section class="research-entry" aria-labelledby="regulatutor">
   <h2 id="regulatutor">RegulaTutor</h2>
   <p class="project-subtitle">A theory-informed framework for long-term personalized learning</p>
-  <p class="project-meta">First author · Manuscript in preparation</p>
+  <p class="project-meta">First author · Under review</p>
   <p>RegulaTutor connects historical learner evidence, learner interpretation, and personalized instructional policies through a cognitive, affective, metacognitive, and motivational (CAMM) framework.</p>
   <p>I designed the framework and developed PairRoute, an offline refinement procedure that uses intermediate execution records to distinguish system-level, model-level, and mixed failures. My work also includes evaluation across model configurations, focusing on evidence accuracy, learner diagnosis, and teaching quality.</p>
 </section>

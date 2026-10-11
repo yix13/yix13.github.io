@@ -18,7 +18,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a research assistant at **HKUST VisLab**. I received my Bachelor of Philosophy from **Peking University**, where I studied logic and philosophy of science, and spent a semester as an exchange student in philosophy at the **University of Notre Dame**.
+I am a research assistant at **HKUST VisLab**. I received my Bachelor of Philosophy from **Peking University**, where I studied logic and philosophy of science.
 
 My research focuses on **human-AI collaboration**: how AI systems can help people understand evidence, make decisions, and learn. I am especially interested in large language models and explainable AI in healthcare and education.
 
@@ -26,8 +26,6 @@ With a background in philosophy and logic, I bring an interest in reasoning and 
 
 <div class="intro-links">
   <a href="mailto:yonggang.laurent.li@gmail.com">Email</a>
-  <a href="{{ '/assets/pdf/yonggang-li-cv.pdf' | relative_url }}">CV (PDF)</a>
-  <a href="https://github.com/yix13">GitHub</a>
 </div>
 
 ## Research interests
