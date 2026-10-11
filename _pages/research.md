@@ -26,7 +26,7 @@ My work explores how AI systems can support human reasoning in healthcare and ed
 </section>
 
 <section class="research-entry" aria-labelledby="argumentation">
-  <h2 id="argumentation">Argumentation-based human-AI interaction</h2>
+  <h2 id="argumentation">ArguHealth: Structured Healthcare Information Seeking through Toulmin Argumentation</h2>
   <p class="project-subtitle">Supporting daily healthcare decision-making</p>
   <p class="project-meta">Project lead · Ongoing research</p>
   <p>I am exploring how Toulmin's model of argumentation can make AI-assisted daily healthcare decisions more transparent and trustworthy. This project investigates argument structure as an interface for understanding and examining AI-generated health advice.</p>
