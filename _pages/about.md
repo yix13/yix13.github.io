@@ -18,7 +18,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a research assistant at **HKUST VisLab**. I received my Bachelor of Philosophy from **Peking University**, where I studied logic and philosophy of science.
+I am a research assistant at [**HKUST VisLab**](https://vis.cse.ust.hk). I received my Bachelor of Philosophy from **Peking University**, where I studied logic and philosophy of science.
 
 My research focuses on **human-AI collaboration**: how AI systems can help people understand evidence, make decisions, and learn. I am especially interested in large language models and explainable AI in healthcare and education.
 
