@@ -18,7 +18,7 @@ My work explores how AI systems can support human reasoning in healthcare and ed
 
 <section class="research-entry" aria-labelledby="aividence">
   <h2 id="aividence">AIvidence: Reconciling Patient-Specific AI Explanations with Evidence-Based Medicine for Clinical Diagnosis</h2>
-  <p class="project-meta">Second author</p>
+  <p class="project-meta">Second author · Under review</p>
   <p>AIvidence is a visualization system that connects patient-specific AI explanations with biomedical literature to support clinical diagnostic decision-making.</p>
   <p>I contributed to system design and frontend and backend implementation, manuscript preparation, and an iterative design process informed by expert feedback and clinical requirements.</p>
 </section>
